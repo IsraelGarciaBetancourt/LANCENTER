@@ -3,13 +3,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us Form</title>
-    <link rel="stylesheet" media="all" href="stylecontactenos.css" />
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <title>Maoh - Contactenos</title>
+    <link rel="stylesheet" media="all" href="styles/stylecontactenos.css" />
+    <script type="text/javascript" src="animations/funciones.js"></script>
+    <script type="text/javascript" src="animations/scriptscontac.js"></script>
 </head>
 <body>
+
+  <header>
+    <nav class="menu">
+        <div class="hamburger" onclick="mostrar()">
+          <span></span><span></span><span></span>
+        </div>
+        <label class="logo"> 
+          <a href="index.html"><img class="logomaoh" src="img/LogoMaoh.png" alt="logomaoh"></a>
+            Lan Center Maoh 
+        </label>
+        <ul id="sliding_menu">
+          <li><span class="close" onclick="ocultar()">X</span></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="Eventos.html">Eventos</a></li>
+          <li><a href="contactenos.html">Contactenos</a></li>
+        </ul>
+      </nav> 
+  </header>
+
   <div class="container">
     <div class="row">
-      <h1>contactenos</h1>
+      <h1>Contactenos</h1>
     </div>
     <div class="row">
       <h4 style="text-align:center">formulario</h4>
@@ -17,32 +40,34 @@
       <div class="row input-container">
           <div class="col-xs-12">
             <div class="styled-input wide">
-              <input type="text" required />
-                <label>Nombre</label> 
+              <input type="text" id="nombreInput" required />
+                <label for="nombreInput">Nombre</label> 
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="styled-input">
-              <input type="text" required />
+              <input type="text" id="emailInput" required />
               <label>Email</label> 
           </div>
         </div>
           <div class="col-md-6 col-sm-12">
             <div class="styled-input" style="float:right;">
-              <input type="text" required />
+              <input type="text" id="telefonoInput" required />
               <label>Telefono</label> 
           </div>
         </div>
           <div class="col-xs-12">
             <div class="styled-input wide">
-              <textarea required></textarea>
+              <textarea id="mensajeInput" required></textarea>
                 <label>Mensaje</label>
             </div>
         </div>
+
         <div class="col-xs-12">
-          <div class="btn-lrg submit-btn">Enviar Mensaje</div>
-        </div>
+          <div class="btn-lrg submit-btn" onclick="validarInput()">Enviar Mensaje</div>
+        </div>    
+
     </div>
-  </div>
+  </div> 
 </body>
 </html>

@@ -10,6 +10,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo .logomaoh {
+    float: left; 
+    margin: 10px;
+    margin-left: 50px;
+    height: auto;
+    width: 50px;
+}
+
 .menu .logo {
     color: white;
     font-size: 25px;
@@ -76,8 +84,12 @@ body {
 
 
 .banner .texto_banner h1{
-    font-size: 28px;
+    font-size: 50px;
 
+}
+
+.banner .texto_banner p {
+    font-size: 30px;
 }
 
 @media(max-width: 700px) {
@@ -144,6 +156,9 @@ body {
 
     }
 
+    .banner .texto_banner{
+        width: 90%;
+    }
 
 }
 

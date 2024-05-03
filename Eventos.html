@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maoh-Eventos</title>
+    <link  rel="stylesheet" href="/styles/navbar.css">
+    <link  rel="stylesheet" href="/styles/Eventos.css">   
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="animations/funciones.js"></script>
+</head>
+<body class="body">
+    <nav class="menu">
+        <div class="hamburger" onclick="mostrar()">
+          <span></span><span></span><span></span>
+        </div>
+        <label class="logo"> 
+            <a href="index.html"><img class="logomaoh" src="img/LogoMaoh.png" alt="logomaoh"></a>
+            Lan Center Maoh 
+        </label>    
+        <ul id="sliding_menu">
+          <li><span class="close" onclick="ocultar()">X</span></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="Eventos.html">Eventos</a></li>
+          <li><a href="contactenos.html">Contactenos</a></li>
+        </ul>
+      </nav>
+    <header class="Event">
+        <h1>
+            Eventos
+        </h1>
+    </header>
+    <div class="imagenesEvent">
+        <div class="carrousel">
+            <div class="conteCarrousel">
+                <div class="itemCarrousel" id="itemCarrousel-1">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="eventos_img/Torneo FN 2.jpg" alt="item-1-Carrousel">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-4">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-2">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="eventos_img/Torneo FN.jpg" alt="item-1-Carrousel">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-3">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="eventos_img/Torneo WF.jpg" alt="item-1-Carrousel">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-4">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-4">
+                    <div class="itemCarrouselTarjeta1">
+                        Proximamente....
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteCarrouselController">
+                <a href="#itemCarrousel-1">•</a>
+                <a href="#itemCarrousel-2">•</a>
+                <a href="#itemCarrousel-3">•</a>
+                <a href="#itemCarrousel-4">•</a>
+            </div>
+        </div>
+    </div>
+    <div class="Sorteos">
+        <h1>
+            Sorteos
+        </h1>
+        
+    
+
+    </div>
+    <div class="imagenesEvent">
+        <div class="carrousel">
+            <div class="conteCarrousel">
+                <div class="itemCarrousel" id="itemCarrousel-5">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="eventos_img/Sorteo PB.jpg" alt="item-1-Carrousel">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-8">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-6">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-6">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="eventos_img/Sorteo2.jpg" alt="item-1-Carrousel">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-5">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-7">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-7">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="eventos_img/Sorteo3.jpg" alt="item-1-Carrousel">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-6">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-8">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-8">
+                    <div class="itemCarrouselTarjeta1">
+                        Proximamente....
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-7">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-5">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteCarrouselController">
+                <a href="#itemCarrousel-5">•</a>
+                <a href="#itemCarrousel-6">•</a>
+                <a href="#itemCarrousel-7">•</a>
+                <a href="#itemCarrousel-8">•</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

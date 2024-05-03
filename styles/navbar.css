@@ -18,12 +18,23 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-.logomaoh {
+
+.logo .logomaoh {
     float: left; /* Hace que la imagen flote a la izquierda */
-    margin: 1rem;
-    margin-left: 2rem;
+    margin: 0px;
+    margin-left: 0px;
     height: auto;
-    width: 5rem;
+    width: 0px;
+}
+
+@media (min-width: 768px) {
+    .logo .logomaoh {
+        float: left; /* Hace que la imagen flote a la izquierda */
+        margin: 10px;
+        margin-left: 0px;
+        height: auto;
+        width: 50px;
+    }
 }
 
 .menu ul {
@@ -33,7 +44,7 @@ body {
 
 .menu ul li {
     display: inline-block;
-    margin: 23px 15px;
+    margin: 23px 10px;
 }
 
 .menu ul li a {
@@ -73,19 +84,6 @@ body {
     min-height: 20%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.banner .texto_banner p,
-.banner .texto_banner h1{
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-
-
-.banner .texto_banner h1{
-    font-size: 28px;
-
 }
 
 @media(max-width: 700px) {
