@@ -1,4 +1,3 @@
-
 .Event {
     text-align: center;
     font-size: 30px;
@@ -11,25 +10,27 @@
     text-shadow: 0 0 10px rgba(102, 0, 255, 0.9), 0 0 20px rgba(102, 0, 255, 0.9), 0 0 30px rgba(102, 0, 255, 0.9), 0 0 40px rgba(102, 0, 255, 0.9), 0 0 70px rgba(102, 0, 255, 0.9), 0 0 80px rgba(102, 0, 255, 0.9), 0 0 100px rgba(102, 0, 255, 0.9), 0 0 150px rgba(102, 0, 255, 0.9);
     animation: cambioColor 2s infinite alternate; /* Animación de cambio de color */
 }
- .imagenesEvent{
+ 
+.imagenesEvent{
     display: flex;
     gap: 3rem;
     justify-content: center;
     flex-wrap: nowrap;
     ;
 }
+
 .imgWF{
     width: 25%;
     height: 25%;
     padding: 5% 0 5%;
 }
+
 .Sorteos {
     text-align: center;
     font-size: 30px;
     padding: 0px;
     background-color: black;
 }
-
 
 .Sorteos h1 {
     color: transparent; /* Oculta el texto */
@@ -41,17 +42,14 @@
     0% { color: rgba(97, 0, 243, 0.9); } /* Cyan */
     100% { color: rgba(102, 0, 255, 0.9); } /* Cyan más intenso */
 }
+
 .body {
     background-color: black;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .carrousel{
     width: 100%;
+    
 }
 
 .conteCarrousel{
@@ -64,7 +62,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    
 }
 
 .itemCarrouselTarjeta{
@@ -75,7 +72,6 @@
     font-size: 500%;
     color: red;
     padding: 50px;
-    
 }
 
 .itemCarrouselArrows{
@@ -96,7 +92,6 @@
     cursor: pointer;
 }
 
-
 .conteCarrouselController{
     width: 100%;
     display: flex;
@@ -113,6 +108,12 @@
     color: white;
 }
 
+.imagenesEvent img {
+    width: 40%;
+    height: 100%;
+    align-items: end;
+    text-align: center;
+}
 .itemCarrouselTarjeta1{
     width: 100%;
     height: 100%;
@@ -121,21 +122,4 @@
     padding-top: 250px;
     font-size: 500%;
     color: red;
-    
-}
-
-.conteCarrousel img {
-    width: 40rem;
-    height: 100%;
-    align-items: end;
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    .conteCarrousel img {
-        width: 30rem;
-        height: 100%;
-        align-items: end;
-        text-align: center;
-    }
 }

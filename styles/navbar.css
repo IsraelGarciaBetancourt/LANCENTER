@@ -19,8 +19,8 @@ body {
     margin-right: 20px;
 }
 
-.logo .logomaoh {
-    float: left; /* Hace que la imagen flote a la izquierda */
+.logo .logomaoh{
+    float: left;
     margin: 0px;
     margin-left: 0px;
     height: auto;
@@ -29,9 +29,9 @@ body {
 
 @media (min-width: 768px) {
     .logo .logomaoh {
-        float: left; /* Hace que la imagen flote a la izquierda */
+        float: left;
         margin: 10px;
-        margin-left: 0px;
+        margin-left: 30px;
         height: auto;
         width: 50px;
     }
